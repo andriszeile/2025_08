@@ -12,3 +12,13 @@ function atbilde_ir() {
 function atbilde_nav() {
     document.getElementById('atb_nav').style.background = 'red';
 }
+
+//3.uzdevums
+function image() {
+    document.getElementById('attels').style.display='none';
+}
+
+//4.uzdevums
+function color() {
+    document.body.style.background='pink';
+}
