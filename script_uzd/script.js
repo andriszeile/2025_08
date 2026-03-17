@@ -22,3 +22,8 @@ function image() {
 function color() {
     document.body.style.background='pink';
 }
+
+//5.uzdevums
+function video() {
+    document.getElementById('video').style.visibility='visible';
+}

@@ -2,3 +2,10 @@ body {
     background-color: rgb(80, 206, 30);
     margin: 50px;
 }
+
+
+#video {
+    width: 230px;
+    height: 160px;
+    visibility: hidden;
+}
