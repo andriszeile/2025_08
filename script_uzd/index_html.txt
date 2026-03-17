@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Uzdevumi</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <h1>Klases vingrinājumi</h1>
+    <h2>1.uzdevums</h2>
+    <p>Ieraksti savu vārdu. Nospied pogu Iesniegt.</p>
+    <label>Tavs vārds:</label>
+    <input id="varda_ievade" type="text">
+    <button onclick="ievade()">Iesniegt</button>
+    <p id="varda_izvade"></p>
+    
+    <h2>2.uzdevums</h2>
+    <p>Jautājums: vai punktu izvietojums uz metamā kauliņa ir singri noteikts?</p>
+    <button id="atb_ir" onclick="atbilde_ir()">Ir</button>
+    <button id="atb_nav" onclick="atbilde_nav()">Nav</button>
+
+    <h2>3.uzdevums</h2>
+    <p>Nospied uz pogas, lai paslēptu attēlu.</p>
+    <img src="https://www.runcisg.lv/files/522974/catitems/27-71790d29aa6cdeb795773b8a82c9d127.jpg" height="70px" id="attels">
+    <button onclick="image()">Paslēpt</button>
+
+    <h2>4.uzdevums</h2>
+    <p>Nospied uz pogas lai mainītu lapai fonu.</p>
+    <button onclick="color()">Mainīt fonu</button>
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
