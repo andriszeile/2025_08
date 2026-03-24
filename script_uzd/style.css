@@ -1,6 +1,28 @@
+html {
+    background-color: rgb(58, 54, 54);
+}
+
 body {
-    background-color: rgb(80, 206, 30);
-    margin: 50px;
+    background-color: rgb(158, 228, 130);
+    width: 950px;
+    margin: auto;
+    padding: 40px;
+}
+
+h1 {
+    color: blue;
+}
+
+h2 {
+    color: brown;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+p {
+    color: darkblue;
 }
 
 
