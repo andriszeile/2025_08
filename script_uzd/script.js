@@ -25,9 +25,10 @@ function color() {
 
 //5.uzdevums
 function video() {
+    document.getElementById("video").style.display = "block";
     document.getElementById("video").innerHTML = `
-        <iframe width="230" height="160"
-        src="https://www.youtube.com/embed/ok-plXXHlWw"
-        frameborder="0" allowfullscreen></iframe>
+        <video width="230" height="160" controls>
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+        </video>
     `;
 }
