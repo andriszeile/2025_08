@@ -27,7 +27,5 @@ p {
 
 
 #video {
-    width: 230px;
-    height: 160px;
-    visibility: hidden;
+    display: none;
 }
